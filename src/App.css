@@ -1,38 +1,75 @@
-.App {
-  text-align: center;
+*{
+  margin: 0;
+  padding: 0;
+  scroll-behavior: smooth;
+  box-sizing: border-box;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+:root
+{
+  
+  --yellow: #f5c32c;
+    --orange : #FCA61F;
+    --black : #242D49;
+    --gray : #788097;
+    --blueCard : #DDF8FE;
+    --purple: rgb(158, 6, 252);
+    --boxShadow : 0px 19px 60px rgb(0 0 0 / 8%);
+    --orangeCard: rgba(252, 166, 31, 0.45);
+    --smboxShadow: -79px 51px 60px rgba(0, 0, 0, 0.08);
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+body {
+  right: 0;
+  left: 0;
+  top: 0;
+  background-color: #0055ff;
   color: white;
+  font-family: Arial;
 }
 
-.App-link {
-  color: #61dafb;
+.App{
+    overflow: hidden;
+    background-image: linear-gradient(  to right,  #e48c33, white,rgba(0, 128, 0, 0.796));
+    color: var(--black); 
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.button{
+  border: none;
+  border-radius: 34px;
+  color: white;
+  font-size: 16px;
+  padding: 11px 26px 11px 26px;  
+  background: linear-gradient(100deg, #FF9933 26.71%,  #138808 99.36%);
+box-shadow: 0px 10px 10px 1px rgb(128, 124, 120);
 }
+.button:hover{
+  background: white;
+  cursor: pointer;
+  color: var(--orange );
+  border: 1px solid var(--orange);
+  box-shadow: none;
+}
+
+/* ...........desktop ........*/
+
+@media screen and (min-width :1024px){
+    
+}
+
+
+/* ...........Tablets ........*/
+
+@media screen and (min-width :769px) and (max-width:1023px ){
+   
+}
+/* ...........mobiles ........*/
+
+@media screen and (max-width :768px){
+  body {
+    background-color: #0055ff;
+    color: white;
+    font-family: Arial;
+  }
+    
+    }
