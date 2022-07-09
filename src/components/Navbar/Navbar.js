@@ -25,20 +25,19 @@ const Navbar = () => {
         Home
         </Link>
         
-      <Link to="services" spy={true} smooth={true}>
-      Serivces
+      <Link to="about" spy={true} smooth={true}>
+      About
         </Link>
 
-      <Link to="works" spy={true} smooth={true}>
-         Experience
+      <Link to="courses" spy={true} smooth={true}>
+         Courses
         </Link>
 
-<Link to="portfolio" spy={true} smooth={true}>
-                Protfolio
-        </Link>
+<Link to="benefits" spy={true} smooth={true}>
+  Why We        </Link>
 
-        <Link to="portfolio" spy={true} smooth={true}>
-                Protfolio
+        <Link to="mentors" spy={true} smooth={true}>
+                Mentors
               </Link>
               <div className={`nav-dark ${isOpen && "open"}`}>< Darkmode/></div>
 
