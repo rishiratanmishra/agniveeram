@@ -1,5 +1,4 @@
 import React from 'react'
-
 import './successful.css';
 import { Swiper, SwiperSlide } from "swiper/react";
 import "swiper/css";
@@ -22,48 +21,49 @@ export default function Navy() {
   const navy = [
     {
           img: SS1,
-          name:"Navy",
+          name: "Navy",
+
+          
 
     },
     {
         img: SS2,
-        name:"Navy",
+        
 
     },
 
     {
         img: SS3,
-        name:"Navy",
+        
 
     },
 
     {
         img: SS4,
-        name:"Navy",
+        
 
     },
 
     {
         img: SS5,
-        name:"Navy",
+        
 
     },
     
     {
         img: SS6,
-        name:"Navy",
-
+        
     },
     
     {
         img: SS7,
-        name:"Navy",
+        
 
     },
 
     {
         img: SS8,
-        name:"Navy",
+        
 
     },
 
@@ -93,7 +93,7 @@ export default function Navy() {
                <div className="navy">
                        <img src={navy.img} alt="" />
                        <span
-                       style={{color:"yellow"}}
+                       style={{color:"black", fontSize: " 20px" }}
                        ><center>{navy.name} </center></span>
                </div>
              </SwiperSlide>

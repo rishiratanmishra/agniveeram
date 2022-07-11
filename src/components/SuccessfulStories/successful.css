@@ -1,12 +1,19 @@
 
-/*............Successful Stories...............*/
-
 .row-stories{
     display: flex;
+    width: 70%;
+     margin-left: 15rem;
+     padding: 5%;
+     margin-right: 2rem;
     
 }
 
-
+.t-heading{
+  font-size: 2rem;
+  text-align: center;
+  color: var(--orange);
+  font-weight: 600;
+}
 
 .swiper {
     width: 240px;
@@ -18,13 +25,12 @@
     align-items: center;
     justify-content: center;
     border-radius: 18px;
-    font-size: 22px;
-    font-weight: bold;
-    color: #fff;
+    
   }
   
   .swiper-slide:nth-child(1n) {
     background-color: orange;
+
   }
   
   .swiper-slide:nth-child(2n) {
@@ -68,23 +74,20 @@
   @media screen and (max-width :768px){
 
     .row-stories{
-     display: block;
+      display: block;
+     margin-left: 0.5rem;
+     justify-content: center;
+     align-items: center;
+
     }
 .swiper{
   margin-bottom: 2rem;
 }
 
-.top-side-courses{
-  max-width: fit-content;
-  display: inline;
- margin-left: -2rem;
+.succ-stories{
+    margin-top: 150%;
+    padding: 10%;
 }
 
-.top-side-courses span{
-  height: auto;
-  display: inline-block;
-  margin: 0;
-
-}
 
   }

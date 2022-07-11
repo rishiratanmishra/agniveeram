@@ -24,9 +24,7 @@ const converted = {
   ".swiper-slide:nth-child(5n)": { backgroundColor: "rgb(118, 163, 12)" },
   ".swiper-slide:nth-child(6n)": { backgroundColor: "rgb(180, 10, 47)" },
   ".swiper-slide:nth-child(7n)": { backgroundColor: "rgb(35, 99, 19)" },
-  ".swiper-slide:nth-child(8n)": { backgroundColor: "rgb(0, 68, 255)" },
-  ".swiper-slide:nth-child(9n)": { backgroundColor: "rgb(218, 12, 218)" },
-  ".swiper-slide:nth-child(10n)": { backgroundColor: "rgb(54, 94, 77)" }
+  ".swiper-slide:nth-child(8n)": { backgroundColor: "rgb(0, 68, 255)" }
 }
 
 
@@ -34,47 +32,42 @@ export default function Army() {
   const army = [
     {
           img: SS1,
-        name:"Army",
+          name: "Army",
+
     },
     {
         img: SS2,
-        name:"Army",
 
     },
 
     {
         img: SS3,
-        name:"Army",
+        
 
     },
 
     {
         img: SS4,
-        name:"Army",
 
     },
 
     {
         img: SS5,
-        name:"Army",
 
     },
     
     {
         img: SS6,
-        name:"Army",
 
     },
     
     {
         img: SS7,
-        name:"Army",
 
     },
 
     {
         img: SS8,
-        name:"Army",
 
     },
 
@@ -102,8 +95,8 @@ export default function Army() {
                <div className="Army" style={ converted }>
                        <img src={army.img} alt="" />
                        <span
-                       style={{color:"yellow"}}
-                       ><center>{army.name} </center></span>
+                           style={{ color: "black", fontSize: " 20px" }}>
+                           <center>{army.name} </center></span>
                </div>
              </SwiperSlide>
 

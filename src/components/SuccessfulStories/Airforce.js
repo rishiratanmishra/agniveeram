@@ -22,48 +22,40 @@ export default function Airforce() {
   const airforce = [
     {
           img: SS1,
-          name:"Airforce",
-
+          name: "Airforce",
     },
     {
         img: SS2,
-        name:"Airforce",
 
     },
 
     {
         img: SS3,
-        name:"Airforce",
 
     },
 
     {
         img: SS4,
-        name:"Airforce",
 
     },
 
     {
         img: SS5,
-        name:"Airforce",
 
     },
     
     {
         img: SS6,
-        name:"Airforce",
 
     },
     
     {
         img: SS7,
-        name:"Airforce",
 
     },
 
     {
         img: SS8,
-        name:"Airforce",
 
     },
 
@@ -93,7 +85,7 @@ export default function Airforce() {
                <div className="Airforce">
                        <img src={airforce.img} alt="" />
                        <span
-                       style={{color:"yellow"}}
+                       style={{color:"black", fontSize: " 20px" }}
                        ><center>{airforce.name} </center></span>
                </div>
              </SwiperSlide>

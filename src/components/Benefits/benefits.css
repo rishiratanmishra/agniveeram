@@ -1,69 +1,78 @@
 .benefits {
+    margin-top: 4rem;
     display: flex;
     align-items: center;
     justify-content: center;
     flex-direction: column;
-    height: 70vh;
+    height: 100vh;
   }
 
   
   /* heading */
-  .benefits span:nth-of-type(1) {
+  .benefits-title{
     color: var(--black);
-    font-size: 2rem;
+    font-size: 4rem;
     font-weight: bold;
+    margin-top: -12rem;
   }
   
-  .benefits span:nth-of-type(2) {
+  .benefits-subtitle{
     color: var(--orange);
     font-size: 2.5rem;
     font-weight: bold;
   }
-  
-  /* slider */
-  .benefits .swiper{
-      overflow: visible!important;
-  }
-  
-  .benefits-slider {
-    margin-top: 3rem;
-    width: 100%;
-  }
-  
-  .benefits-slider .swiper-slide {
-    background-color: transparent;
-    box-sizing: border-box;
-  }
-  .benefits img {
+
+
+
+
+
+  .imagearea img {
     width: 19rem;
     filter: drop-shadow(-12px 15px 13px rgba(0, 0, 0, 0.25));
     border-radius: 19px;
+    margin-top: 6rem;
+    margin-right: 2rem;
+    cursor: pointer;
+
   }
 
 
   @media screen and (max-width :768px){
-
-   .benefits{
-    padding: 0;
-    transform: translate(5%);
-    align-items: center;
-    margin-left: -1.5rem;
-   }
-   
-   .swiper-slide{
-    display:flex;
-    flex-direction: row;
-   }
-
-    .benefits img {
-        width: 100%;
-        height: 180px;
-        border: 5px solid #ebebeb;
+    .benefits {
+        display: block;
         align-items: center;
         justify-content: center;
-        box-shadow: var(--smboxShadow);
-        background: white;
+        height: 100vh;
+        margin-top: 400%;
 
-    }
+      }
+    
+      
+      
+      .benefits-title{
+        color: var(--black);
+        font-size: 2rem;
+        font-weight: bold;
+        margin-left: 2rem;
+      }
+      
+      .benefits-subtitle{
+        color: var(--orange);
+        font-size: 2.5rem;
+        font-weight: bold;
+        margin-left: 7rem;
 
+      }
+    
+      .imagearea img {
+        width: 19rem;
+        filter: drop-shadow(-12px 15px 13px rgba(0, 0, 0, 0.25));
+        border-radius: 19px;
+        margin-top: 2rem;
+        margin-left: 1.5rem;
+        cursor: not-allowed;
+    
+      }
+    
+    
   }

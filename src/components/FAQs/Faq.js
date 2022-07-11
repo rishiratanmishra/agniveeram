@@ -11,7 +11,7 @@ const Faq = () => {
 
 
     return (   
-        <>
+            <div className='main-ka-main'>
             <section className='main-div'>
         <h1>FAQs</h1>
 
@@ -32,7 +32,7 @@ const Faq = () => {
     
       
       
-      </>
+      </div>
 
 
 

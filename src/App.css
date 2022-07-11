@@ -1,8 +1,10 @@
 *{
   margin: 0;
   padding: 0;
-  scroll-behavior: smooth;
   box-sizing: border-box;
+  scroll-behavior: smooth;
+  transition: all 0.3s ease;
+  
 }
 
 :root
@@ -14,62 +16,52 @@
     --gray : #788097;
     --blueCard : #DDF8FE;
     --purple: rgb(158, 6, 252);
-    --boxShadow : 0px 19px 60px rgb(0 0 0 / 8%);
     --orangeCard: rgba(252, 166, 31, 0.45);
-    --smboxShadow: -79px 51px 60px rgba(0, 0, 0, 0.08);
 }
+
 
 body {
   right: 0;
   left: 0;
   top: 0;
-  background-color: #0055ff;
-  color: white;
-  font-family: Arial;
+  width: 100%;
+  background-image: linear-gradient(  to right,  #e48c33, white,rgba(0, 128, 0, 0.796));
+  color: rgb(17, 3, 3);
 }
 
-.App{
-    overflow: hidden;
-    background-image: linear-gradient(  to right,  #e48c33, white,rgba(0, 128, 0, 0.796));
-    color: var(--black); 
+
+.App {
+  width: 100%;
 }
+
+
+
+.App-link {
+  color: #5906ff;
+}
+
+
+
 
 .button{
-  border: none;
-  border-radius: 34px;
-  color: white;
-  font-size: 16px;
+  flex: 1 1 auto;
+  margin: 10px;
   padding: 11px 26px 11px 26px;  
-  background: linear-gradient(100deg, #FF9933 26.71%,  #138808 99.36%);
-box-shadow: 0px 10px 10px 1px rgb(128, 124, 120);
+  text-align: center;
+  text-transform: uppercase;
+  transition: 0.5s;
+  background-size: 200% auto;
+  color: white;
+ text-shadow: 0px 0px 10px rgba(0, 0, 0, 0.679);
+ box-shadow: 0px 6px 10px 1px rgb(128, 124, 120);
+ border-radius: 34px;
+  border: none;
+  background-image: linear-gradient(  to right,   #e48c33, rgba(91, 84, 84, 0.499),rgba(0, 128, 0, 0.796)); 
+
 }
 .button:hover{
-  background: white;
-  cursor: pointer;
-  color: var(--orange );
+  background-position: 200px auto;
+ cursor: pointer;
   border: 1px solid var(--orange);
-  box-shadow: none;
+  box-shadow: crimson;
 }
-
-/* ...........desktop ........*/
-
-@media screen and (min-width :1024px){
-    
-}
-
-
-/* ...........Tablets ........*/
-
-@media screen and (min-width :769px) and (max-width:1023px ){
-   
-}
-/* ...........mobiles ........*/
-
-@media screen and (max-width :768px){
-  body {
-    background-color: #0055ff;
-    color: white;
-    font-family: Arial;
-  }
-    
-    }

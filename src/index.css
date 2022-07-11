@@ -1,10 +1,17 @@
+@import url('https://fonts.googleapis.com/css2?family=Amaranth&family=Arima:wght@300;400&family=Bree+Serif&display=swap');
 
-@font-face {
-  font-family:Gumela ;
-  src: url(../src/fonts/Gumela\ Regular.otf);
+body {
+  margin: 0;
+ font-family: 'Amaranth', sans-serif;
+font-family: 'Arima', cursive;
+font-family: 'Bree Serif', serif;
+  
+  
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
 }
-*{
-  font-family: Gumela;
-  font-weight: normal;
-  font-size: 20px;
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
 }

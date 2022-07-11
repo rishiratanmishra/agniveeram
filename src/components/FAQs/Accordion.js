@@ -9,7 +9,7 @@ const Accordion = ({ question, answer }) => {
           
             <div className="main-heading">
                 <p onClick={() => hide(!view)}>{view? "➖" : "➕"}</p>
-                <h3>{question} </h3>
+                <h3 >  {question} </h3>
             </div>
             {view && <p className='answer'>{answer}</p>}
             
