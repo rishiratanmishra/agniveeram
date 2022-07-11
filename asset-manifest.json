@@ -1,12 +1,9 @@
 {
   "files": {
-    "main.css": "/agniveeram/static/css/main.365261cc.css",
-    "main.js": "/agniveeram/static/js/main.3886d9f0.js",
+    "main.css": "/agniveeram/static/css/main.7c75233a.css",
+    "main.js": "/agniveeram/static/js/main.8b0711e3.js",
     "static/media/agniveers.mp4": "/agniveeram/static/media/agniveers.de54dacf2414a025bfff.mp4",
-    "static/media/profile1.jpg": "/agniveeram/static/media/profile1.ade0d8a1534a7db15779.jpg",
-    "static/media/profile2.jpg": "/agniveeram/static/media/profile2.fc072c2cab6214e789bd.jpg",
     "static/media/airforce.png": "/agniveeram/static/media/airforce.c2a5f56a16224375cd5f.png",
-    "static/media/profile3.jpg": "/agniveeram/static/media/profile3.e676400ba1340b4dfae9.jpg",
     "static/media/army.jpg": "/agniveeram/static/media/army.d8758a3a50cb5c182278.jpg",
     "static/media/navy.jpeg": "/agniveeram/static/media/navy.93b0d19a8eacca6a1f29.jpeg",
     "static/media/ss-4.jpeg": "/agniveeram/static/media/ss-4.027d7d30ad68bea622e5.jpeg",
@@ -15,17 +12,16 @@
     "static/media/ss-5.jpeg": "/agniveeram/static/media/ss-5.6b780a6ee257b98c6580.jpeg",
     "static/media/ss-3.jpeg": "/agniveeram/static/media/ss-3.c4986e454b8b82fbe746.jpeg",
     "static/media/ss-8.jpeg": "/agniveeram/static/media/ss-8.f22477c4724da54b038f.jpeg",
-    "static/media/Gumela Regular.otf": "/agniveeram/static/media/Gumela Regular.0ae83c6988a536716eb4.otf",
     "static/media/ss-7.jpeg": "/agniveeram/static/media/ss-7.afe57367152750c23516.jpeg",
     "static/media/defence.jpg": "/agniveeram/static/media/defence.0c62c724a09cdd8dcb9a.jpg",
     "static/media/ss-1.jpeg": "/agniveeram/static/media/ss-1.bfca0c5a992353593850.jpeg",
     "static/media/scholarship.png": "/agniveeram/static/media/scholarship.0dfbe3b1f5e578937701.png",
     "index.html": "/agniveeram/index.html",
-    "main.365261cc.css.map": "/agniveeram/static/css/main.365261cc.css.map",
-    "main.3886d9f0.js.map": "/agniveeram/static/js/main.3886d9f0.js.map"
+    "main.7c75233a.css.map": "/agniveeram/static/css/main.7c75233a.css.map",
+    "main.8b0711e3.js.map": "/agniveeram/static/js/main.8b0711e3.js.map"
   },
   "entrypoints": [
-    "static/css/main.365261cc.css",
-    "static/js/main.3886d9f0.js"
+    "static/css/main.7c75233a.css",
+    "static/js/main.8b0711e3.js"
   ]
 }
