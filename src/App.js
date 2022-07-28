@@ -25,6 +25,7 @@ function App() {
       <Faq />
       <Contact />
       <Footer/>
+    alert( Website is under Development);
     </>
   );
 }
